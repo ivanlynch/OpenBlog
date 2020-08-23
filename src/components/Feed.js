@@ -1,5 +1,4 @@
 import {
-  Button,
   FlatList,
   SafeAreaView,
   Text,
@@ -16,14 +15,20 @@ const data = [
   {
     id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
     title: 'First Item',
+    body: 'This the body for first item',
+    author: 'Iván Lynch',
   },
   {
     id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
     title: 'Second Item',
+    body: 'This the body for second item',
+    author: 'Suzi Campanha',
   },
   {
     id: '58694a0f-3da1-471f-bd96-145571e29d72',
     title: 'Third Item',
+    body: 'This the body for third item',
+    author: 'Iván Lynch',
   },
 ];
 export default function Feed(props) {
@@ -38,6 +43,8 @@ export default function Feed(props) {
             <TouchableOpacity>
               <Card>
                 <Text>{item.title}</Text>
+                <Text>{item.body}</Text>
+                <Text>{item.author}</Text>
               </Card>
             </TouchableOpacity>
           )}
