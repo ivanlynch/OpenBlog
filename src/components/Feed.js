@@ -29,15 +29,10 @@ const data = [
 export default function Feed(props) {
   return (
     <SafeAreaView style={styles.feedContainer}>
-      <Header title="NEW POSTS" style={styles.feedTitle} />
-      <View>
-        <Text>Profile screen</Text>
-      </View>
-      <View>
-        <Button title="Soy un boton" onPress={() => {}} />
-      </View>
+      <Header title="NEWS" style={styles.feedTitle} />
       <View style={styles.feedContainer}>
         <FlatList
+          style={styles.feedListContainer}
           data={data}
           renderItem={({item}) => (
             <TouchableOpacity>
@@ -57,11 +52,17 @@ const styles = StyleSheet.create({
     flex: 1,
     alignContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#FFF',
+    width: '100%',
   },
   feedTitle: {
     fontSize: 18,
     textAlign: 'center',
     letterSpacing: 2,
     fontFamily: 'DoHyeon-Regular',
+  },
+  feedListContainer: {
+    width: '100%',
+    padding: 10,
   },
 });
