@@ -1,17 +1,24 @@
 import {TextInput, View, Button, StyleSheet} from 'react-native';
-import React from 'react';
+import React, {useContext} from 'react';
 import {Formik} from 'formik';
+import {PostContext} from '../contexts/PostContext';
 
 /**
  * @param {{ onSubmit: () => void; }} props
  */
 export default function NewPostForm(props) {
+  // @ts-ignore
+  const {dispatch} = useContext(PostContext);
   return (
     <View style={styles.formContainer}>
       <Formik
         initialValues={{title: '', body: '', author: ''}}
         onSubmit={(values, actions) => {
           console.log(values);
+          dispatch({
+            type: 'ADD_POST',
+            post: values,
+          });
           actions.resetForm();
           props.onSubmit();
         }}>

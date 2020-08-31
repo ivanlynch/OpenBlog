@@ -17,7 +17,7 @@ export default function ModalMenu(props) {
           <View style={styles.menuContainer}>
             <View style={styles.menuButtonWrapper}>
               {props.options.map((button, index) => (
-                <View style={styles.button}>
+                <View style={styles.button} key={`modalButton$${index}`}>
                   <Button
                     key={`modalButton$${index}`}
                     title={button.title}

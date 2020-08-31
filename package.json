@@ -3,11 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
+    "android": "npx react-native run-android",
+    "ios": "npx react-native run-ios",
+    "fresh-ios": "cd ./ios && rm -rf Pods && pod cache clean --all && pod install",
+    "clean": "watchman watch-del-all && rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-* && rm -rf node_modules/ && yarn && yarn start",
+    "start": "npx react-native start --reset-cache",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "link": "npx react-native link"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
@@ -17,23 +20,28 @@
     "formik": "^2.1.5",
     "react": "16.13.1",
     "react-native": "0.63.2",
+    "react-native-flipper": "^0.54.0",
     "react-native-gesture-handler": "^1.7.0",
-    "react-native-safe-area-context": "^3.1.6",
+    "react-native-get-random-values": "^1.4.0",
+    "react-native-safe-area-context": "^3.1.7",
     "react-native-screens": "^2.10.1",
     "react-native-vector-icons": "^7.0.0",
     "uuid": "^8.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/runtime": "^7.8.4",
+    "@babel/core": "^7.11.4",
+    "@babel/runtime": "^7.11.2",
     "@react-native-community/eslint-config": "^1.1.0",
-    "babel-jest": "^25.1.0",
-    "eslint": "^6.5.1",
-    "jest": "^25.1.0",
+    "babel-jest": "^25.5.1",
+    "eslint": "^6.8.0",
+    "jest": "^25.5.4",
     "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "author": "Iván Lynch <ivan.lynch@outlook.com.ar>",
+  "license": "MIT"
 }

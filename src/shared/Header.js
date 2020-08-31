@@ -36,6 +36,7 @@ export default function Header(props) {
         <View style={styles.formContainer}>
           <NewPostForm
             onSubmit={() => {
+              console.log('On Submit, escondiendo el form.');
               setFormVisible(false);
             }}
           />
@@ -46,6 +47,7 @@ export default function Header(props) {
           underlayColor="rgba(73,182,77,1,0.9)"
           style={styles.menuButtonContainer}
           onPress={() => {
+            console.log('Hago click en el menu');
             setOpen(true);
           }}>
           <Icon name={'bars'} size={20} style={styles.menuButton} />
