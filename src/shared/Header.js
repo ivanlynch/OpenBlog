@@ -3,8 +3,7 @@ import React, {useState} from 'react';
 import {View, StyleSheet, Text, Modal} from 'react-native';
 import {TouchableHighlight} from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import ModalMenu from './ModalMenu';
-import NewPostForm from '../components/NewPostForm';
+import AddFeed from '../components/AddFeed';
 
 /**
  * @param {{ style: boolean | import("react-native").TextStyle | import("react-native").RegisteredStyle<import("react-native").TextStyle> | import("react-native").RecursiveArray<false | import("react-native").TextStyle | import("react-native").RegisteredStyle<...>>; title: React.ReactNode; }} props
@@ -17,26 +16,10 @@ export default function Header(props) {
       <View>
         <Text style={props.style}>{props.title}</Text>
       </View>
-      <ModalMenu
-        visible={isOpen}
-        options={[
-          {
-            title: 'Add Post',
-            onPress: () => {
-              setOpen(false);
-              setFormVisible(true);
-            },
-          },
-        ]}
-        onCancel={() => {
-          setOpen(false);
-        }}
-      />
       <Modal visible={isFormVisible} animationType="fade" transparent={true}>
         <View style={styles.formContainer}>
-          <NewPostForm
+          <AddFeed
             onSubmit={() => {
-              console.log('On Submit, escondiendo el form.');
               setFormVisible(false);
             }}
           />
@@ -47,10 +30,9 @@ export default function Header(props) {
           underlayColor="rgba(73,182,77,1,0.9)"
           style={styles.menuButtonContainer}
           onPress={() => {
-            console.log('Hago click en el menu');
-            setOpen(true);
+            setFormVisible(true);
           }}>
-          <Icon name={'bars'} size={20} style={styles.menuButton} />
+          <Icon name={'plus'} size={20} style={styles.menuButton} />
         </TouchableHighlight>
       </View>
     </View>

@@ -1,7 +1,8 @@
-import {TextInput, View, Button, StyleSheet} from 'react-native';
+import {TextInput, View, Button, StyleSheet, Text} from 'react-native';
 import React, {useContext} from 'react';
 import {Formik} from 'formik';
 import {PostContext} from '../contexts/PostContext';
+import {TouchableOpacity} from 'react-native-gesture-handler';
 
 /**
  * @param {{ onSubmit: () => void; }} props
@@ -24,6 +25,9 @@ export default function NewPostForm(props) {
         }}>
         {(formikprops) => (
           <View style={styles.formGroup}>
+            <View style={styles.formTitle}>
+              <Text style={styles.title}>NEW FEED</Text>
+            </View>
             <TextInput
               key="title"
               style={styles.formInput}
@@ -46,12 +50,12 @@ export default function NewPostForm(props) {
               onChangeText={formikprops.handleChange('author')}
               value={formikprops.values.author}
             />
-            <Button
-              title="Submit"
-              color="maroon"
+            <TouchableOpacity
+              style={styles.formSubmit}
               // @ts-ignore
-              onPress={formikprops.handleSubmit}
-            />
+              onPress={formikprops.handleSubmit}>
+              <Text style={styles.textSubmit}>SUBMIT</Text>
+            </TouchableOpacity>
           </View>
         )}
       </Formik>
@@ -61,11 +65,34 @@ export default function NewPostForm(props) {
 
 const styles = StyleSheet.create({
   formContainer: {
-    height: '40%',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'white',
+    padding: 10,
+    paddingBottom: 0,
     width: '100%',
+  },
+  formTitle: {
+    borderBottomWidth: 4,
+    borderBottomColor: '#FFDAC1',
+    margin: 20,
+  },
+  title: {
+    fontSize: 25,
+    fontFamily: 'DoHyeon-Regular',
+  },
+  formSubmit: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#FFDAC1',
+    padding: 10,
+    margin: 20,
+    marginBottom: 10,
+  },
+  textSubmit: {
+    fontSize: 25,
+    fontFamily: 'DoHyeon-Regular',
+    textAlign: 'center',
   },
   formInput: {
     borderWidth: 1,
@@ -77,7 +104,6 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   formGroup: {
-    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     width: '80%',
