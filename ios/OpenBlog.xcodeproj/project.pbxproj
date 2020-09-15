@@ -19,6 +19,7 @@
 		6CB3BEDB17DBED41A2DCFE84 /* libPods-OpenBlog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4265BDEE23DC0923C41937F /* libPods-OpenBlog.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		921FF7E8D58C4ABBD190B564 /* libPods-OpenBlog-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D929BDA43E3D33923B02974 /* libPods-OpenBlog-tvOSTests.a */; };
+		93864CC1ECA04842B3517588 /* DoHyeon-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 364E5C849B244323B2D668D7 /* DoHyeon-Regular.ttf */; };
 		FC272BD5C98E1E1D73D32822 /* libPods-OpenBlog-OpenBlogTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D948A6D7D7A986063646A /* libPods-OpenBlog-OpenBlogTests.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		00E356EE1AD99517003FC87E /* OpenBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* OpenBlogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenBlogTests.m; sourceTree = "<group>"; };
+		05199A4741334A3A8419A9BC /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = ../src/assets/fonts/Feather.ttf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* openblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openblog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OpenBlog/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = OpenBlog/AppDelegate.m; sourceTree = "<group>"; };
@@ -52,20 +54,36 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OpenBlog/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OpenBlog/main.m; sourceTree = "<group>"; };
 		159522A1E68DE6C77A4533A5 /* Pods-OpenBlog-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenBlog-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-OpenBlog-tvOSTests/Pods-OpenBlog-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		159ABE9AD1654AA8B1E689E5 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = ../src/assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
 		1909B0157386450917321263 /* Pods-OpenBlog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenBlog.release.xcconfig"; path = "Target Support Files/Pods-OpenBlog/Pods-OpenBlog.release.xcconfig"; sourceTree = "<group>"; };
+		19CF65142AA64C079EE40A87 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = ../src/assets/fonts/Foundation.ttf; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* OpenBlog-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenBlog-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* OpenBlog-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenBlog-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F08F5427544E3E899F9243 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = ../src/assets/fonts/Ionicons.ttf; sourceTree = "<group>"; };
+		364E5C849B244323B2D668D7 /* DoHyeon-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DoHyeon-Regular.ttf"; path = "../src/assets/fonts/DoHyeon-Regular.ttf"; sourceTree = "<group>"; };
+		407CFAC0A33C4CE599E82211 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = ../src/assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		42CD1DBB0E7540DCAD011FC1 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = ../src/assets/fonts/Fontisto.ttf; sourceTree = "<group>"; };
+		4CE464126E8A47FE9FC1A4B5 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = ../src/assets/fonts/Entypo.ttf; sourceTree = "<group>"; };
 		4D929BDA43E3D33923B02974 /* libPods-OpenBlog-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenBlog-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5D948A6D7D7A986063646A /* libPods-OpenBlog-OpenBlogTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenBlog-OpenBlogTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EABA4945A82989478A71C8 /* Pods-OpenBlog-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenBlog-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-OpenBlog-tvOSTests/Pods-OpenBlog-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DA55742432F361CF33D7DF0 /* Pods-OpenBlog-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenBlog-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-OpenBlog-tvOS/Pods-OpenBlog-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7B726C97003648289220B2A1 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = ../src/assets/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OpenBlog/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		970C539E26AAE5639400C972 /* libPods-OpenBlog-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenBlog-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97766B6C53EA490DB231B082 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = ../src/assets/fonts/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		9EC0DA047E5A42AD9CD62C87 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = ../src/assets/fonts/SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		AA0EB6CFFE344261AC3F6C38 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = ../src/assets/fonts/FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		BA58CFD5E0C4425E8DB311EE /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = ../src/assets/fonts/AntDesign.ttf; sourceTree = "<group>"; };
+		C2306617845D46C8856D658B /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = ../src/assets/fonts/FontAwesome.ttf; sourceTree = "<group>"; };
+		C72A236397E0421E8B59BEBF /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = ../src/assets/fonts/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		CAC2DEBF73914084AA419C15 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = ../src/assets/fonts/Zocial.ttf; sourceTree = "<group>"; };
 		E652F4F630B9C7503A155881 /* Pods-OpenBlog-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenBlog-tvOS.release.xcconfig"; path = "Target Support Files/Pods-OpenBlog-tvOS/Pods-OpenBlog-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		E9FEBF140B80B7168369F133 /* Pods-OpenBlog-OpenBlogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenBlog-OpenBlogTests.debug.xcconfig"; path = "Target Support Files/Pods-OpenBlog-OpenBlogTests/Pods-OpenBlog-OpenBlogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F4265BDEE23DC0923C41937F /* libPods-OpenBlog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenBlog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D7BA9C967B4FA7873E521D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = ../src/assets/fonts/Octicons.ttf; sourceTree = "<group>"; };
 		FEC40EF323A68FC57A126C69 /* Pods-OpenBlog-OpenBlogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenBlog-OpenBlogTests.release.xcconfig"; path = "Target Support Files/Pods-OpenBlog-OpenBlogTests/Pods-OpenBlog-OpenBlogTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,7 +143,6 @@
 		13B07FAE1A68108700A75B9A /* OpenBlog */ = {
 			isa = PBXGroup;
 			children = (
-				F86D34D424F1857E009CB938 /* Fonts */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -202,15 +219,25 @@
 		DEDBE86E616D4C3792638505 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BA58CFD5E0C4425E8DB311EE /* AntDesign.ttf */,
+				364E5C849B244323B2D668D7 /* DoHyeon-Regular.ttf */,
+				4CE464126E8A47FE9FC1A4B5 /* Entypo.ttf */,
+				7B726C97003648289220B2A1 /* EvilIcons.ttf */,
+				05199A4741334A3A8419A9BC /* Feather.ttf */,
+				C2306617845D46C8856D658B /* FontAwesome.ttf */,
+				C72A236397E0421E8B59BEBF /* FontAwesome5_Brands.ttf */,
+				97766B6C53EA490DB231B082 /* FontAwesome5_Regular.ttf */,
+				AA0EB6CFFE344261AC3F6C38 /* FontAwesome5_Solid.ttf */,
+				42CD1DBB0E7540DCAD011FC1 /* Fontisto.ttf */,
+				19CF65142AA64C079EE40A87 /* Foundation.ttf */,
+				33F08F5427544E3E899F9243 /* Ionicons.ttf */,
+				407CFAC0A33C4CE599E82211 /* MaterialCommunityIcons.ttf */,
+				159ABE9AD1654AA8B1E689E5 /* MaterialIcons.ttf */,
+				F6D7BA9C967B4FA7873E521D /* Octicons.ttf */,
+				9EC0DA047E5A42AD9CD62C87 /* SimpleLineIcons.ttf */,
+				CAC2DEBF73914084AA419C15 /* Zocial.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		F86D34D424F1857E009CB938 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,7 +329,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1170;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -357,6 +384,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				93864CC1ECA04842B3517588 /* DoHyeon-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,6 +717,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9FEBF140B80B7168369F133 /* Pods-OpenBlog-OpenBlogTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -712,6 +741,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FEC40EF323A68FC57A126C69 /* Pods-OpenBlog-OpenBlogTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = OpenBlogTests/Info.plist;
