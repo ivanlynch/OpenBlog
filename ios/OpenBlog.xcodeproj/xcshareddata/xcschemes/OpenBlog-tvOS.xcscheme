@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "hooks-tvOS.app"
-               BlueprintName = "hooks-tvOS"
-               ReferencedContainer = "container:hooks.xcodeproj">
+               BuildableName = "OpenBlog-tvOS.app"
+               BlueprintName = "OpenBlog-tvOS"
+               ReferencedContainer = "container:OpenBlog.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "hooks-tvOSTests.xctest"
-               BlueprintName = "hooks-tvOSTests"
-               ReferencedContainer = "container:hooks.xcodeproj">
+               BuildableName = "OpenBlog-tvOSTests.xctest"
+               BlueprintName = "OpenBlog-tvOSTests"
+               ReferencedContainer = "container:OpenBlog.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "hooks-tvOS.app"
-            BlueprintName = "hooks-tvOS"
-            ReferencedContainer = "container:hooks.xcodeproj">
+            BuildableName = "OpenBlog-tvOS.app"
+            BlueprintName = "OpenBlog-tvOS"
+            ReferencedContainer = "container:OpenBlog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "hooks-tvOS.app"
-            BlueprintName = "hooks-tvOS"
-            ReferencedContainer = "container:hooks.xcodeproj">
+            BuildableName = "OpenBlog-tvOS.app"
+            BlueprintName = "OpenBlog-tvOS"
+            ReferencedContainer = "container:OpenBlog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
